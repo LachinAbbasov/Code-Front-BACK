@@ -1,0 +1,89 @@
+#admin-social-profile {
+    width: 70%;
+    padding: 25px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    border: 1px solid #7763E6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .settings-title {
+        font-size: 23px;
+        font-weight: 700;
+        font-family: Hind Mysuru;
+    }
+    .settings-nav {
+        font-family: Hind Mysuru;
+        display: flex;
+        gap: 20px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        border-bottom: 1px solid #b8b8b8;
+        .socialProfile {
+            position: relative;
+            color: #553CDF;
+            &::after {
+                background-color: #553CDF;
+                position: absolute;
+                width: 113px;
+                height: 2px;
+                content: "";
+                bottom: -5px;
+                left: 0;
+            }
+        }
+    }
+    .social-profile-title {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Hind Mysuru;
+    }
+    .social-profile-links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .social-profile-link {
+            color: #717171;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 700px;
+            .social-name {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 20px;
+            }
+            input {
+                border-radius: 5px;
+                border: 1px solid #7763E6;
+                font-size: 19px;
+                padding: 10px 30px;   
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+}
+@media (max-width:768px) {
+    .social-profile-link {
+        flex-direction: column;
+        gap: 10px;
+        align-items: start !important;
+    }
+}
+
+@media (max-width:576px) {
+    .settings-nav {
+        flex-direction: column;
+        gap: 5px !important;
+    }
+    .socialProfile {
+        &::after {
+            bottom: -5px !important;
+        }
+    }
+}
