@@ -85,14 +85,16 @@ a{
   margin: 0 auto;
   width: 80%;
 }
-
+#footer{
+  position: relative;
+}
 
 .container-logo{
   margin: 0 auto;
   width: 80%;
 }
 #footer {
-  position: relative;
+ 
     font-family: "Palanquin";
     margin-top: 8rem 0rem;
     background-color: #181818;
