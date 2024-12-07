@@ -1,0 +1,142 @@
+#students-feedback {
+    padding: 70px 0;
+    background-color: #F5F5FF;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .student-feedback-title {
+            font-weight: 600;
+            font-family: Hind Mysuru;
+            text-align: center;
+            font-size: 48px;
+            color: #1f1f25;
+            margin-bottom: 50px;
+        }
+
+        .student-feedback-card {
+            display: flex;
+
+            .feedback-card-right {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                }
+            }
+
+            .feedback-card-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0 70px;
+                background-color: #fff;
+
+                .card-left-stars {
+                    align-self: end;
+
+                    i {
+                        color: #ffa41c;
+                    }
+
+                    .total-reviews {
+                        font-size: 18px;
+                    }
+                }
+
+                .card-left-parag {
+                    color: #737477;
+                    font-size: 27px;
+                    line-height: 30px;
+                    margin-bottom: 50px;
+                }
+
+                .card-left-user {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .author {
+                        display: flex;
+                        flex-direction: column;
+
+                        .author-name {
+                            font-weight: 600;
+                            font-size: 25px;
+                            font-family: Hind Mysuru;
+                        }
+
+                        .author-job {
+                            color: #737477;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .feedback-overlay {
+        z-index: 5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #00000091;
+        display: none;
+    }
+
+    .feedback-modal {
+        z-index: 6;
+        margin: 0 auto;
+        height: 60vh;
+        width: 60vw;
+        position: fixed;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+
+        .feedback-close {
+            transition: all .3s ease;
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            font-size: 25px;
+            color: #fff;
+            position: absolute;
+            right: 0;
+            top: 0;
+            align-items: end;
+            &:hover{
+                background-color: #36348E;
+            }
+        }
+
+        .feedback-black-container {
+            background-color: #000;
+            height: 50vh;
+            width: 60vw;
+        }
+    }
+
+    .dots {
+        color: #CFCEE8;
+        gap: 15px;
+        display: flex;
+        font-size: 30px;
+        width: 100px;
+        margin: 50px auto;
+        .dot1 {
+            color: #36348E;
+        }
+    }
+}
