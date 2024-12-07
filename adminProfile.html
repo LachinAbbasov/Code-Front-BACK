@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./adminProfile.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+    <section id="admin-profile">
+        <div class="settings-title">
+            Settings
+        </div>
+        <div class="settings-nav">
+            <span class="profile">Profile</span>
+            <span class="password">Password</span>
+            <span class="socialProfile">Social Profile</span>
+        </div>
+        <div class="head">
+            <div class="profile">
+                <div class="image">
+                    <img src="https://secure.gravatar.com/avatar/75d23af433e0cea4c0e45a56dba18b30?s=300&d=mm&r=g">
+                </div>
+                <button id="upload-photo">
+                    <i class="fa-solid fa-camera"></i>
+                    Upload Cover Photo
+                </button>
+            </div>
+            <div class="delete-icon">
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="input-grid">
+                <form id="admin-profile-form">
+                    <div class="first-name">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="First Name">
+                    </div>
+                    <div class="last-name">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Last Name">
+                    </div>
+                    <div class="user-name">
+                        <label for="user-name">User Name</label>
+                        <input type="text" id="user-name" placeholder="User Name">
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone-number">Phone Name</label>
+                        <input type="text" id="phone-number" placeholder="Phone Number">
+                    </div>
+                </form>
+                <div class="skill-occupation">
+                    <label for="skill-occupation">Skill/Occupation</label>
+                    <input type="text" id="skill-occupation" placeholder="UX Designer">
+                </div>
+            </div>
+        </div>
+
+        <div class="bio">
+            <p class="bio-title">Bio</p>
+            <textarea id="bio"></textarea>
+        </div>
+
+        <div class="display-name">
+            <p class="display-name-title">Display name publicly as</p>
+            <select>
+                <option value="admin-name">admin admin</option>
+            </select>
+            <p class="display-name-parag">
+                The display name is shown in all public fields, such as the author name, instructor name, student name, and name that will be printed on the certificate.
+            </p>
+        </div>
+        <button id="update-profile">
+            Update Profile
+        </button>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+#admin-profile {
+    margin: 40px;
+    width: 70%;
+    margin-left: auto;
+    padding: 25px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    border: 1px solid #7763E6;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .settings-title {
+        font-size: 23px;
+        font-weight: 700;
+        font-family: Hind Mysuru;
+    }
+
+    .settings-nav {
+        font-family: Hind Mysuru;
+        display: flex;
+        gap: 20px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        border-bottom: 1px solid #b8b8b8;
+
+        .profile {
+            position: relative;
+            color: #553CDF;
+
+            &::after {
+                background-color: #553CDF;
+                position: absolute;
+                width: 60px;
+                height: 2px;
+                content: "";
+                bottom: -5px;
+                left: 0;
+            }
+        }
+    }
+
+    .head {
+        background-image: url("https://studyhub.themewant.com/wp-content/plugins/tutor/assets/images/cover-photo.jpg");
+        border-radius: 5px;
+        height: 300px;
+        padding: 40px;
+        position: relative;
+        margin-bottom: 80px;
+
+        .profile {
+            width: 95%;
+            display: flex;
+            gap: 40px;
+            position: absolute;
+            bottom: -20%;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+
+            .image {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background-color: white;
+                overflow: hidden;
+                border: 10px solid white;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            #upload-photo {
+                border-radius: 5px;
+                color: #fff;
+                padding: 10px 15px;
+                font-size: 17px;
+                background-color: #553CDF;
+            }
+        }
+
+        .delete-icon {
+            padding: 15px;
+            border-radius: 50%;
+            background-color: #00000054;
+            position: absolute;
+            right: 40px;
+            top: 40px;
+
+            i {
+                color: #fff;
+            }
+
+        }
+    }
+
+    .inputs {
+        #admin-profile-form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            label {
+                font-size: 18px;
+            }
+
+            input {
+                font-size: 17px;
+                display: block;
+                border-radius: 5px;
+                border: 1px solid #7763E6;
+                padding: 15px 20px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+        .user-name {
+            input {
+                background-color: #e3e5eb;
+
+                &:hover {
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+
+    .bio {
+        textarea {
+            width: 100%;
+            border: 1px solid grey;
+        }
+    }
+
+    .display-name {
+        max-width: 300px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        color: grey;
+
+        select {
+            display: block;
+            font-size: 17px;
+            border-radius: 5px;
+            border: 1px solid #7763E6;
+            padding: 15px 20px;
+        }
+    }
+
+    #update-profile {
+        border-radius: 5px;
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 17px;
+        background-color: #553CDF;
+        max-width: 200px;
+    }
+
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:576px) {
+    .settings-nav {
+        flex-direction: column;
+        gap: 5px !important;
+    }
+
+    .profile {
+        &::after {
+            bottom: 0px !important;
+        }
+    }
+}
