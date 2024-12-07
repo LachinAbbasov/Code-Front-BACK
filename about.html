@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="./assets/lachin.css">
+    <link rel="stylesheet" href="./assets/arzu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,7 +15,49 @@
         rel="stylesheet">
 
 
-        <button class="up"></button>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://studyhub.themewant.com/university/wp-content/uploads/2023/07/logo-default.svg" alt="Logo">
+        </div>
+        <div class="menu-left">
+            <a href="#Home">Home</a>
+            <a href="#Pages">Pages</a>
+            <a href="#Academics">Academics</a>
+            <a href="#Events">Events</a>
+            <a href="#Contact">Contact</a>
+            <a href="#Blog">Blog</a>
+        </div>
+    
+        <div class="menu-right">
+            <div class="cta-button">
+                <form action="">
+                    <input type="text" class="search" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"
+                            style="color: #9484f5;"></i></button>
+                </form>
+            </div>
+    
+    
+    
+    
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="desktop-burger" onclick="toggleDesktopMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    
+    </nav>
     <main>
         <section id="hero">
             <div class="container">
@@ -152,10 +196,124 @@
             </div>
         </section>
     </main>
-</head>
-
-<body>
-
+    <footer id="footer">
+        <section id="subscribe">
+            <div class="container">
+                <div class="subscribe">
+                    <div class="subscribe-left">
+                         <h3>Don’t Miss Awesome   Story from our alumni </h3>
+                     
+                    </div>
+                   <div class="subscribe-right">
+                    <input type="email" value="" placeholder="Enter your email">
+                    <button type="submit" class="subscribe-btn">Subscribe
+                        <i class="bi bi-arrow-up-right"></i>
+                    
+                        
+                    </button>
+                   </div>
+                </div>
+            </div>
+            </section>
+        <div class="container-footer">
+    
+            <div class="footer_bottom">
+             
+                <div class="footer_bottom_right">
+                    <div class="footer_bottom_left">
+                        <img style="width: 100%;" src="./images/logouni.png" alt="">
+                        <p  style="color: #6F7073; font-size: 16px;">We are passionate education dedicated to providing high-quality resources learners all backgrounds</p>
+                        <!-- <div class="location" style="display: flex;">
+                          <i class="bi bi-geo-alt"></i>
+                        Park, Melbourne, Australia   
+                        </div> -->
+                       
+                        <div class="footer_bottom_left_contact">
+                            <i class="bi bi-geo-alt"></i>
+                          
+                            <a href="">  Park, Melbourne, Australia  </a>
+                        </div>
+                        <div class="footer_bottom_left_contact">
+                            <i class="bi bi-telephone"></i>  <a href="tel:+748 383 23 14">+748 383 23 14</a>
+                        </div>
+        
+        
+                      
+                    </div>
+        
+                    <div class="footer_bottom_right_contact">
+                        <h2>Our Campus </h2>
+                        <a href="">Shoulder Bag</a>
+                        <a href="">Backpack</a>
+                        <a href="">Tote Bag</a>
+                        <a href="">Hand Bag</a>
+                        <a href="">Evening bags</a>
+                        <a href="">Purse</a>
+                    </div>
+                    <div class="footer_bottom_right_contact">
+                        <h2>Our Campus</h2>
+    
+                        <a href="">About us</a>
+                        <a href="">Contact</a>
+                        <a href="">Terms of Use</a>
+                        <a href="">Customer service</a>
+    
+    
+                    </div>
+                    <div class="footer_bottom_right_contact">
+                        <h2>Recet Post</h2>
+    
+    
+                        <div class="recet-post">
+                            <div class="recet-post-left">
+                                    <a href=""><img src="./images/footer.1jpg.jpg" alt=""></a>
+                                  
+                            </div>
+                            
+                            <div class="recet-post-right">
+                                <p class="date">
+                                    May 12, 2024</p>
+                                <p class="post-desc">Maximizing Your Learning Potential:</p>
+                            </div>
+                         
+                        </div>
+                        <div class="recet-post">
+                            <div class="recet-post-left">
+                                    <a href=""><img src="./images/footer2.jpg" alt=""></a>
+                                  
+                            </div>
+                            
+                            <div class="recet-post-right">
+                                <p class="date">
+                                    May 12, 2024</p>
+                                <p class="post-desc">Maximizing Your Learning Potential:</p>
+                            </div>
+                         
+                        </div>
+                       
+                    
+    
+    
+                    </div>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div  style="text-align: center;color:#6F7073;">
+                  
+                        © Cpoyright 2024  All rights reserved by <a href="index.html">StudyHub</a>
+    
+                
+                  
+                </div>
+            </div>
+    
+        </div>
+    </footer>
 </body>
 
 </html>
