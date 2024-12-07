@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+#campus {
+  padding: 100px 0;
+  background-image: url("https://studyhub.themewant.com/university/wp-content/uploads/2024/08/bg-line.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  .left-part {
+    .head-text {
+      position: relative;
+      margin-bottom: 25px;
+      h2 {
+        font: 600 100px "Hind";
+        color: #1f1f25;
+      }
+      .history {
+        position: absolute;
+        top: 58px;
+        left: 15%;
+      }
+    }
+    .last-part {
+      padding: 0 0 30px 20px;
+      border-left: 2px solid #7777772c;
+      p {
+        font: 16px "Inter";
+        color: #777777;
+        line-height: 25px;
+        margin-bottom: 40px;
+      }
+      button {
+        height: 57px;
+        color: #ffffff;
+        background-color: #36348e;
+        border: none;
+        font: 16px "Inter";
+        padding: 17px 30px;
+      }
+    }
+  }
+  .right-part {
+    height: 500px;
+    align-content: end;
+    .image {
+      width: 100%;
+      height: 400px;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .play-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 70px;
+      }
+    }
+  }
+}
+
+#discover {
+  padding-bottom: 100px;
+  .head-text {
+    h2 {
+      text-align: center;
+      font: 600 48px "Hind";
+      margin-bottom: 20px;
+    }
+  }
+  .discover-card {
+    background-color: #09a24f;
+    color: white;
+    text-align: center;
+    padding: 40px 70px;
+    transition: all 0.5s;
+    .icons {
+      margin-bottom: 15px;
+      .icon {
+        width: 60px;
+        height: 60px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        margin: auto;
+      }
+    }
+    span {
+      font: 700 22px "Hind";
+    }
+    p {
+      font: 16px "Inter";
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      small {
+        font: 16px "Inter";
+        text-decoration: underline;
+      }
+    }
+    &:hover {
+      background-color: #553cdf;
+    }
+  }
+  .discover-card-2 {
+    background-color: #36348e;
+    color: white;
+    height: 100%;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    .program-card {
+      width: 100%;
+      height: 70px;
+      padding: 10px 23px;
+      align-content: center;
+      transition: all 0.5s;
+
+      border: 1px solid rgba(255, 255, 255, 0.64);
+      font: 20px "Inter";
+      i {
+        font-size: 32px;
+      }
+      &:hover {
+        background-color: #09a24f;
+      }
+    }
+  }
+}
+
+#scholarship {
+  text-align: center;
+  padding: 100px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://studyhub.themewant.com/university/wp-content/uploads/2024/07/scholarship-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  .text {
+    h2 {
+      font: 600 60px "Hind";
+      margin-bottom: 0;
+    }
+    p {
+      width: 60%;
+      margin: auto;
+      font: 16px "Inter";
+      margin-bottom: 26px;
+      line-height: 25px;
+    }
+
+    button {
+      height: 57px;
+      color: #ffffff;
+      background-color: #09a24f;
+      border: none;
+      font: 16px "Inter";
+      padding: 17px 30px;
+    }
+  }
+}
+
+#how-to-apply{
+    padding: 100px 0;
+    .left-text{
+        h2{
+            width: 75%;
+            font: 600 48px "Hind";
+        }
+    }
+    .right-text{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        height: 100%;
+        padding-left: 45px;
+        p{
+            font: 16px "Inter";
+            color: #777777;
+            line-height: 25px;
+        }
+    }
+    .apply-card{
+        background-color: #36348e;
+        padding: 40px;
+        color: white;
+        margin-bottom: 10px;
+        .apply-icons{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            i{
+                font-size: 40px;
+            }
+            h1{
+                font: 40px "Hind";
+            }
+        }
+        span{
+            font: 700 24px "Hind";
+        }
+        p{
+            font: 16px "Inter";
+            line-height: 25px;
+        }
+    }
+}
