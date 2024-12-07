@@ -1,5 +1,7 @@
+#review{
+    width: 70%;
+}
 .review-box{
-    width: 65%;
     border: 1px solid #DDD8F9;
     border-radius: 8px;
     height: 400px;
@@ -33,3 +35,6 @@ img{
     font-size: 1rem;
     color: black;
 }
+
+
+
