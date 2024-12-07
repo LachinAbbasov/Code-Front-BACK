@@ -1,0 +1,222 @@
+#hero {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://studyhub.themewant.com/university/wp-content/uploads/2024/07/scholarship-bg.jpg");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+
+    font-family: sans-serif;
+}
+
+.hero-link {
+    text-align: center;
+
+}
+
+
+.hero-link {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    max-width: 500px;
+    padding: 40px 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutunitop{
+    display: flex;
+    gap: 3rem;
+    padding: 30px;
+    font-family: Inter;
+}
+
+.aboutunitop h2{
+    width: 40%;
+    font-size: 40px;
+    font-family: Inter;
+    border-right: 1px solid grey;
+}
+.aboutunitop p{
+    width: 60%;
+    font-size: 16px;
+    color: grey;
+    font-family: Inter;
+}
+.aboutunitop img{
+    width: 60%;
+}
+
+.subscribe-right{
+    width: 50%;
+}
+
+.subscribe-left{
+    width: 50%;
+}
+
+.aboutunimiddle{
+    display: flex;
+    gap: 3rem;
+}
+
+.aboutunimiddlem-left{
+    width: 70%;
+}
+.aboutunimiddlem-left img{
+    width: 400px;
+}
+.imge{
+    width: 670px;
+}
+
+.aboutunimiddlem-right{
+    width: 30%;
+}
+.boxes{
+    display:flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 100%;
+    font-family: Inter;
+    flex-direction: column;
+}
+.box{
+    padding: 30px 30px ;
+    background-color: #36348E;
+    color:white;
+
+    
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.price p{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.desc{
+    font-size: 12px;
+}
+.price img{
+    width: 50px;
+    height: 40px;
+}
+
+.aboutmiddle-right{
+    width: 50%;
+}
+
+
+
+#edu{
+    margin: 40px 0px ;
+    
+}
+
+.edu{
+    display: flex;
+    gap: 3rem;
+}
+
+.edu-left{
+    width: 50%;
+}
+
+.img img {
+    width: 450px;
+    height: 100%;
+}
+
+
+.edu-right-h{
+  font-size: 30px;
+  font-weight: 600;
+  
+}
+
+.edu-right p{
+    font-size: 14px;
+    color: grey;
+    margin-top: 30px;
+}
+
+body{
+    font-family: Inter;
+}
+
+.score{
+    max-width: 70%;
+    margin: 0 auto ;
+    display: flex;
+    background-color: #36348E;
+    color: white;
+    padding: 20px 30px ;
+    text-align: center;
+
+}
+.score-box{
+    border: none;
+    border-right: 1px solid white;
+}
+.score h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+
+
+
+.ourcompus{
+    width: 100%;
+    margin: 40px auto;
+}
+
+.ourcompus img{
+    width: 100%;
+}
+
+.ourcompus p{
+    color: grey;
+    font-size: 14px;
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.ourcompus a{
+    text-align: center;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    color: #36348E;
+    text-decoration: none;
+}
