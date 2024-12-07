@@ -1,0 +1,107 @@
+.login-box {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 40px;
+    border: 1px solid #DDD8F9;
+    padding: 60px;
+    background: white;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.login-box button{
+    margin-top: 30px;
+    background-color: #553CDF;;
+     color: white;
+     font-size: 12px;
+     padding: 8px;
+     border-radius: 2px;
+     border: none;
+    width: 100%;
+
+}
+
+.login-link{
+    color: rgb(37, 37, 37);
+    text-align: center;
+
+
+}
+
+.login-link a{
+    color: #553CDF!important;
+    text-transform: capitalize;
+}
+input {
+
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    display: block;
+    font-size: 20px;
+  
+}
+.login-box h3{
+    font-family: Inter;
+    font-weight: 400;
+}
+input::placeholder{
+    font-size: 12px;
+    color: grey;
+    font-family: Inter;
+
+}
+
+#login a{
+color:grey;
+text-decoration: none;
+}
+
+.accept-link-left{
+    display: flex;
+    gap: 8px;
+}
+
+.accept{
+    margin-top: 30px;
+    font-size: 12px;
+    color: grey;
+    font-family: Inter;
+}
+.accept-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #7B76F1;
+}
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    margin-top: 0px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 0px;
+    accent-color:#553CDF;
+    /* margin-bottom: 20px; */
+}
+
+
+
+.wiew-course{
+    background-image: url(https://studyhub.themewant.com/wp-content/uploads/2024/03/cta-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wiew-course p{
+color: white;
+
+}
