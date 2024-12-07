@@ -7,10 +7,10 @@
     box-sizing: border-box;
   }
   
-  .container{
-      width: 1440px;
+  /* .container{
+      width: 1000px;
       margin:0 auto;
-  }
+  } */
   
   .head{
       background-image: url("https://studyhub.themewant.com/wp-content/uploads/2024/04/instructor-cover.jpg");
@@ -47,12 +47,15 @@
           }
       }
   }
+/* 
+  #admin-panel{
+display: inline-block;
+  } */
   
   .sidebar{
       padding: 40px;
       border: 1px solid rgba(128, 128, 128, 0.345);
       border-radius: 5px;
-      width: 23%;
       ul{
           list-style: none;
           li{
