@@ -23,7 +23,7 @@
   position: absolute;
   z-index: 6;
   display: flex;
-  top: 28%;
+  top: -10%;
 right: 11%;
   justify-content: space-between;
   background: linear-gradient(0deg, #12a25ce2,#12a25cb7),
