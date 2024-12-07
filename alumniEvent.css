@@ -1,0 +1,132 @@
+#alumni-event {
+    .container {
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+        max-width: 1200px;
+
+        h1 {
+            font-size: 40px;
+            padding: 30px 0;
+            font-family: Hind Mysuru;
+        }
+
+        .alumni-event {
+            width: 65%;
+
+            .event-cards {
+                flex-direction: column;
+                display: flex;
+
+                .event-card {
+                    background-color: #F5F5FF;
+                    display: flex;
+                    align-items: center;
+                    padding: 50px;
+
+                    .event-card-number {
+                        margin-right: 20px;
+                        font-size: 55px;
+                    }
+
+                    .event-card-texts {
+                        flex-direction: column;
+                        display: flex;
+                        gap: 20px;
+
+                        .event-card-title {
+                            font-family: Hind Mysuru;
+                            font-size: 28px;
+                            line-height: .9;
+                            font-weight: bold;
+                        }
+
+                        .event-card-date-about {
+                            display: flex;
+                            gap: 20px;
+                            align-items: center;
+
+                            .date,
+                            .time,
+                            .location {
+                                display: flex;
+                                gap: 5px;
+                                align-items: center;
+                            }
+                        }
+                    }
+                    &:nth-child(2) {
+                        color: #fff;
+                        background-color: #36348E;
+                    }
+                }
+            }
+        }
+
+        .notice {
+            width: 35%;
+            .notice-title {
+                border-bottom: 2px solid #cbcbe4;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                a {
+                    color: #36348E;
+                    display: flex;
+                    font-weight: bold;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .notice-buttons {
+                border-bottom: 2px solid #cbcbe4;
+                padding: 30px 0;
+                button {
+                    margin-right: 5px;
+                    border: 1px solid #36348E;
+                    padding: 8px 15px;
+                    transition: all .3s ease;
+                    &:hover {
+                        color: #fff;
+                        background-color: #36348E;
+                    }
+                }
+                #admission {
+                    color: #fff;
+                    background-color: #36348E;
+                }
+            }
+            .notice-scroll {
+                overflow: hidden;
+                max-height: 415px;
+                /* background-color: #27279b; */
+                .notice-scroll-card {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    color: #737477;
+                    padding: 25px 0;
+                    border-top: 1px solid #cbcbe4;
+                    .notice-date {
+                        display: flex;
+                        flex-direction: column;
+                        .date-number {
+                            margin-bottom: -7px;
+                            font-family: Hind Mysuru;
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: #09A24F;    
+                        }
+                    }
+                    .notice-parag {
+                        font-size: 17px;
+                        transition: all .3s ease;
+                        &:hover {
+                            color: #36348E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
