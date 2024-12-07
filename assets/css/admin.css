@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  
+  /* .container{
+      width: 1000px;
+      margin:0 auto;
+  } */
+  
+  .head{
+      background-image: url("https://studyhub.themewant.com/wp-content/uploads/2024/04/instructor-cover.jpg");
+      border-radius: 5px;
+      height: 300px;
+      padding: 40px;
+      position: relative;
+      margin-bottom: 80px;
+      .profile{
+          display: flex;
+          gap: 40px;
+          position: absolute;
+          bottom: -20%;
+          color: white;
+          .image{
+              width: 200px;
+              height: 200px;
+              border-radius: 50%;
+              background-color: white;
+              overflow: hidden;
+              border: 10px solid white;
+              img{
+                  width: 100%;
+              }
+          }
+          .text{
+              margin-top: 20px;
+              h3{
+                  font:600 40px "Hind";
+              }
+              span{
+                  font: 16px "Inter";
+              }
+          }
+      }
+  }
+/* 
+  #admin-panel{
+display: inline-block;
+  } */
+  
+  .sidebar{
+      padding: 40px;
+      border: 1px solid rgba(128, 128, 128, 0.345);
+      border-radius: 5px;
+      ul{
+          list-style: none;
+          li{
+              padding: 18px 0;
+              font: 16px "Inter";
+              color: #737477;
+              border-bottom: 1px solid rgba(128, 128, 128, 0.345);
+              a{
+                  color: #737477;
+                  text-decoration: none;
+              }
+          }
+          .logout{
+              border: none;
+          }
+      }
+  }
